@@ -1,0 +1,32 @@
+{
+  "name": "sistema-de-encurtamento-de-urls",
+  "version": "1.0.0",
+  "description": "Esse projeto é advinda de uma aula gratuita da Rocketseat!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "setup": "tsx ./src/setup.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordana-Kunsler-Zatti/Sistema-de-encurtamento-de-URLs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordana-Kunsler-Zatti/Sistema-de-encurtamento-de-URLs/issues"
+  },
+  "homepage": "https://github.com/Jordana-Kunsler-Zatti/Sistema-de-encurtamento-de-URLs#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.3",
+    "redis": "^4.6.13",
+    "zod": "^3.22.4"
+  }
+}
